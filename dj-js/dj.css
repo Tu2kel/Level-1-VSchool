@@ -1,0 +1,119 @@
+
+#reds  
+ {
+    height: 50px;
+    width: 50px;
+    border : 2px solid red;
+    padding : 25px;
+    margin: 10px;
+    animation: reddy 1s infinite;
+
+}
+#reds:hover {
+  width: 100px;
+  height: 100px;
+}
+#blues                                         
+ {
+    height: 50px;
+    width: 50px;
+    border : 2px solid blue;
+    padding : 25px;
+    padding-bottom: 1;
+    margin: 10px;
+    margin-left: 250px;
+    transition: width 2s, height 4s;
+   
+
+}
+
+#blues:hover {
+  width: 150px;
+  height: 150px;
+}
+#greens
+ {
+    height: 50px;
+    width: 50px;
+    border : 2px solid green;
+    padding : 25px;
+
+}
+#greens:hover {
+  width: 120px;
+  height: 120px;
+  transform: rotate(360deg);
+}
+
+#yellows
+ {
+    height: 50px;
+    width: 50px;
+    border : 2px solid yellow;
+    padding : 25px;
+    margin: 10px;
+    margin-left: 250px;
+    transition: width 2s, height 2s, transform 1s;
+}
+#yellows:hover {
+  width: 120px;
+  height: 120px;
+  transform: rotate(360deg);
+}
+#oranges
+ {
+    height: 50px;
+    width: 50px;
+    border : 2px solid orange;
+    padding : 25px;
+    animation: oranges 2s infinite;
+}
+
+
+
+body, html {
+  height: 150%;
+  /* opacity: 0.8; */
+    /* margin-left: 20%; */
+}
+
+.bg {
+  background-image: url("dark.jpg");
+  position: absolute;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blues, #reds, #greens, #yellows, #oranges{
+    position: relative;
+    left: 30%;
+    top: 70px;
+}
+h1{
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes  glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+@keyframes oranges {
+  from {left: -10px;}
+  to {right: -10px;}
+}
+@keyframes reddy {
+  from {top: 10px;}
+  to {bottom: 10px;}
+}
+
+
+.orangey, .yellowy, .greeny, .bluey, .reddy{
+    color: #fff;
+}
+

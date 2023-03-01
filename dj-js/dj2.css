@@ -1,0 +1,125 @@
+
+
+
+/* .flip-box, .flip-redbox {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: blue;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+/*--------------------------------RED--------------------*/
+
+/* .flip-redbox-front, .flip-redbox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-redbox-front {
+  background-color: #bbb;
+  color: red;
+}
+
+.flip-redbox-back {
+  background-color: rgb(212, 16, 16);
+  color: white;
+  transform: rotateY(180deg);
+} */
+
+/*--------------------------------Green--------------------*/
+
+/* .flip-greenbox-front, .flip-greenbox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-greenbox-front {
+  background-color: #bbb;
+  color: greenyellow;
+}
+
+.flip-greenbox-back {
+  background-color: greenyellow;
+  color: white;
+  transform: rotateY(180deg);
+} */
+
+/*------------------------------Yellow--------------------*/
+
+/* .flip-yellowbox-front, .flip-yellowbox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-yellowbox-front {
+  background-color: #bbb;
+  color: yellow;
+}
+
+.flip-yellowbox-back {
+  background-color: yellow;
+  color: rgb(119, 196, 12);
+  transform: rotateY(180deg);
+} */
+/*------------------------------Orange--------------------*/
+
+/* .flip-orangebox-front, .flip-orangebox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-orangebox-front {
+  background-color: #bbb;
+  color: orange;
+}
+
+.flip-orangebox-back {
+  background-color: orange;
+  color: white;
+  transform: rotateY(180deg);
+} */ 
