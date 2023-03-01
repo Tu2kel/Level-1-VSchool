@@ -1,0 +1,131 @@
+#header {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.name {
+    color: peachpuff;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 20px;
+    background-image: url("tech.jpg");
+    
+}
+
+#main {
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: lightblue;
+}
+
+.left {
+    align-self: flex-start;
+    background-color: burlywood;
+}
+span{
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    text-align: center;
+    
+}
+
+
+/* #region Message Fading */
+.message.ltop{
+    
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation: 1s ease .2s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+.message.rtop{
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:1s ease 2s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+.message.lbtm{
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:1s ease 4s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+.message.rbtm{
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:1s ease 6s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+.message.lbtm5{
+    animation:1s ease 2s normal forwards 1 fadein;
+    -webkit-animation:1s ease 8s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+
+
+/* #endregion*/
+
+button{
+    border: red;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
